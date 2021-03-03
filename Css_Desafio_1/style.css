@@ -1,0 +1,22 @@
+body {
+    margin: 10px 100px;
+}
+
+.div1, .div3 {
+    flex-direction: column;
+    display: flex;
+    align-items: left;
+    background-color: rgb(206, 204, 204);
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+p {
+    font-size: 18px;
+    width: 600px;
+}
+
