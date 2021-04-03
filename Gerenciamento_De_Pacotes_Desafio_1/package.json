@@ -1,0 +1,13 @@
+{
+    "name": "project-package-manager",
+    "version": "1.0.0",
+    "description": "Estudos sobre gerenciamento de pacotes",
+    "main": "index.js",
+    "author": "Vinicius Rocha da Rocha",
+    "license": "MIT",
+    "private": true,
+    "type": "module",
+    "dependencies": {
+        "date-fns": "^2.19.0"
+    }
+}
