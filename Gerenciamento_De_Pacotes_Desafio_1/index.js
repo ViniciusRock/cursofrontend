@@ -1,3 +1,3 @@
-import { formatDate } from './formatters.js'
+import { formatDate } from "./formatter.js";
 
-console.log(formatDate(new Date()))
+console.log(formatDate(new Date()));
