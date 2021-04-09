@@ -1,20 +1,11 @@
 const subtrai = function (a, b) {
     return console.log(a - b);
 }
-//testando função no console
-subtrai(1, 2);
 
 const testaZero = arg => {
-    if (arg == 0) {
-        console.log("É 0.");
-    } else {
-        console.log("Não é 0.");
-    }
+    arg == 0 ? console.log("É 0.") : console.log("Não é 0.")
 }
-//testando função no console
-testaZero(0)
-//testando função no console
-testaZero(1)
+
 
 const testaSinal = (a, b) => {
     let resultado = a - b;
@@ -28,11 +19,3 @@ const testaSinal = (a, b) => {
         console.log("Fim.");
     }
 }
-//testando função no console
-testaSinal(1, 1);
-//testando função no console
-testaSinal(2, 1);
-//testando função no console
-testaSinal(-2, 1);
-//testando função no console
-testaSinal(1, -2);
